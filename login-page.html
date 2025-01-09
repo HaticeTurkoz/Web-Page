@@ -1,0 +1,37 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Home Page</title>
+    <link rel="stylesheet" href="styleLogin.css" />
+  </head>
+  <body>
+    <div class="banner">
+      <video autoplay loop muted plays-inline>
+        <source src="images/house2.mp4" type="video/mp4" />
+      </video>
+      <div class="navbar">
+        <ul>
+          <li><a href="#">Home</a></li>
+          <!-- <li><a href="#">Products</a></li> -->
+          <li><a href="about-us.html">About Us</a></li>
+          <!-- <li><a href="#">Support</a></li> -->
+        </ul>
+      </div>
+      <div class="content">
+        <h1>EXPLORE PRODUCTS</h1>
+        <div>
+          <button type="button" onclick="redirectToExplore()">Explore</button>
+          <!-- JavaScript fonksiyonunu çağır -->
+        </div>
+      </div>
+    </div>
+
+    <script>
+      function redirectToExplore() {
+        window.location.href = "explore.html"; // Yönlendirme yap
+      }
+    </script>
+  </body>
+</html>
